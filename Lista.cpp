@@ -184,7 +184,7 @@ else
 return 0;
 }
 
-template <class Tipo>
+/*template <class Tipo>
 int Lista<Tipo>::Contar(){
 	nodo<Tipo>* p;
 	int cont = 0;
@@ -194,7 +194,7 @@ int Lista<Tipo>::Contar(){
 		p = p->prox;
 	}
 	return cont;
-}
+}*/
 
 template <class Tipo>
 nodo<Tipo>* Lista<Tipo>::Buscar(Tipo Valor)
